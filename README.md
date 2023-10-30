@@ -17,8 +17,15 @@ Steps 1:
   9. Make a .env file
   10. assign a port number where this application will run, (ex: PORT=8000)
   11. application is now ready to run
-
+<br>
 Steps 2:
   1. Run the following commands in the terminal of the project
   2. 'npm install'
   3. 'npm start'
+<br>
+<br>
+## Scope for improvement:
+Users can be remembered so multiple users can access this simultaneously
+User's details can be displayed on the frontend
+
+
