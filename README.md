@@ -24,8 +24,8 @@ Steps 2:
   3. 'npm start'
 <br>
 <br>
-## Scope for improvement:
-Users can be remembered so multiple users can access this simultaneously
-User's details can be displayed on the frontend
+## Scope for improvement:<br>
+  1. Users can be remembered so multiple users can access this simultaneously<br>
+  2. User's details can be displayed on the frontend
 
 
