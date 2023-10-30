@@ -92,6 +92,8 @@ const sendReplies = async (auth, messages) => {
 
         // sending the reply using gmail api
         await gmail.users.messages.send(replyMessage);
+
+        console.log("reply sent successfully");
       }
 
       // adding this mail to the custom label and removing from the 'INBOX' section.
