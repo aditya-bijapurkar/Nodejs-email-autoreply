@@ -1,8 +1,10 @@
 # Nodejs-email-autoreply
 
 This application uses google APIs and google-auth to monitor emails
+This application is based on node.js
+Install node.js from https://nodejs.org/en/download
 
-Steps:
+Steps 1:
   1. Create a google account
   2. Create a google cloud project on https://console.cloud.google.com/
   3. Go to 'API and services' section
@@ -15,4 +17,8 @@ Steps:
   9. Make a .env file
   10. assign a port number where this application will run, (ex: PORT=8000)
   11. application is now ready to run
-      
+
+Steps 2:
+  1. Run the following commands in the terminal of the project
+  2. 'npm install'
+  3. 'npm start'
