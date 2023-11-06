@@ -22,7 +22,7 @@ const createLabel = async (auth) => {
     const response = await gmail.users.labels.create({
       userId: "me",
       requestBody: {
-        name: "openinapp-test",
+        name: "auto-replied",
         labelListVisibility: "labelShow",
         messageListVisibility: "show",
       },
@@ -35,7 +35,7 @@ const createLabel = async (auth) => {
         userId: "me",
       });
       const label = response.data.labels.find(
-        (label) => label.name === "openinapp-test"
+        (label) => label.name === "auto-replied"
       );
       return label.id;
     }
