@@ -12,6 +12,7 @@ const app = express();
 app.get("/", async (req, res) => {
   // uses google-auth to verify a user
   const auth = await authenticateUser();
+  console.log("checking emails");
 
   // main function is called randomly every 45-120 seconds
   async function main() {
@@ -28,5 +29,5 @@ app.get("/", async (req, res) => {
 
 // starting express application
 app.listen(port, () => {
-  console.log(`server is running ${port}`);
+  console.log(`docker image is running on container port: ${port}`);
 });
